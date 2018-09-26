@@ -1,0 +1,41 @@
+{
+  "byId": {
+    "daenerys": {
+      "id": "daenerys",
+      "name": "Daenerys Targaryen",
+      "imagePath": "/images/daenerys.jpg",
+      "bio": "Queen Daenerys I Targaryen is the younger sister of Rhaegar Targaryen and Viserys Targaryen, the paternal aunt of Jon Snow, and the youngest child of King Aerys II Targaryen and Queen Rhaella Targaryen, who were both ousted from the Iron Throne during Robert Baratheon's rebellion."
+    },
+    "jon": {
+      "id": "jon",
+      "name": "Jon Snow",
+      "imagePath": "/images/jon.png",
+      "bio": "Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. After successfully capturing a wight and presenting it to the Lannisters as proof that the Army of the Dead are real, Jon pledges himself and his army to Daenerys Targaryen."
+    },
+    "gregor": {
+      "id": "gregor",
+      "name": "Gregor Clegane",
+      "imagePath": "/images/gregor.jpg",
+      "bio": "Ser Gregor Clegane is a knight of House Clegane, the older brother of Sandor Clegane, and a notoriously fearsome warrior, with a tendency toward extreme and excessive violence."
+    },
+    "cersei": {
+      "id": "cersei",
+      "name": "Cersei Lannister",
+      "imagePath": "/images/cersei.png",
+      "bio": "Queen Cersei I Lannister is the widow of King Robert Baratheon and Queen of the Seven Kingdoms. She is the daughter of Lord Tywin Lannister, twin sister of Jaime Lannister and elder sister of Tyrion Lannister."
+    },
+    "tyrion": {
+      "id": "tyrion",
+      "name": "Tyrion Lannister",
+      "imagePath": "/images/tyrion.jpg",
+      "bio": "Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces."
+    },
+    "arya": {
+      "id": "arya",
+      "name": "Arya Stark",
+      "imagePath": "/images/arya.jpg",
+      "bio": "Arya Stark is the third child of Eddard Stark and Catelyn Stark. After narrowly escaping the persecution of House Stark by House Lannister, Arya is trained as a Faceless Man at the House of Black and White in Braavos, and uses her new skills to bring those who have wronged her family to justice."
+    }
+  },
+  "allIds": ["daenerys", "jon", "arya", "gregor", "cersei", "tyrion"]
+}
