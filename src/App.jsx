@@ -21,7 +21,7 @@ const App = ({ characters, selectedCharacter, selectCharacter }) => (
     {selectedCharacter && (
       <React.Fragment>
         <img
-          src={selectedCharacter.imagePath}
+          src={process.env.PUBLIC_URL + selectedCharacter.imagePath}
           className="rounded mx-auto d-block img-thumbnail mt-3"
           alt={selectedCharacter.name}
           style={{ width: 200 }}
