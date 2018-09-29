@@ -1,6 +1,6 @@
 {
   "name": "game-of-thrones-character-select",
-  "homepage": "https://smtchahal.github.io/got-characters-starter/",
+  "homepage": "https://smtchahal.github.io/got-characters/",
   "version": "0.1.0",
   "dependencies": {
     "prop-types": "^15.6.2",
