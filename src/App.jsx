@@ -10,6 +10,7 @@ const App = ({ characters, selectedCharacter, selectCharacter }) => (
       onChange={e => {
         selectCharacter(e.target.value || null);
       }}
+      value={(selectedCharacter && selectedCharacter.id) || ''}
     >
       <option value="">Select a character...</option>
       {characters.map(character => (
