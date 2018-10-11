@@ -1,5 +1,5 @@
 {
-  "name": "game-of-thrones-character-select",
+  "name": "got-characters",
   "homepage": "https://smtchahal.github.io/got-characters/",
   "version": "0.1.0",
   "dependencies": {
