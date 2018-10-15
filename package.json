@@ -1,6 +1,6 @@
 {
-  "name": "got-characters",
-  "homepage": "https://smtchahal.github.io/got-characters/",
+  "name": "got-characters-without-router",
+  "homepage": "https://smtchahal.github.io/got-characters-without-router/",
   "version": "0.1.0",
   "dependencies": {
     "prop-types": "^15.6.2",
@@ -8,8 +8,7 @@
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.5",
-    "redux": "^4.0.0",
-    "redux-first-router": "0.0.9-rudy"
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

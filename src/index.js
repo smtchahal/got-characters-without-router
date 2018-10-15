@@ -1,19 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore, compose, applyMiddleware } from 'redux';
+import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 
 import rootReducer from './reducers';
 import AppContainer from './AppContainer';
-import connectedRoutes from './connectedRoutes';
 
-const { middleware, enhancer } = connectedRoutes;
-
-const middlewares = applyMiddleware(middleware);
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
-const store = createStore(rootReducer, composeEnhancers(enhancer, middlewares));
+const store = createStore(
+  rootReducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+);
 
 ReactDOM.render(
   <Provider store={store}>
